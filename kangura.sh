@@ -1,7 +1,7 @@
 #!/bin/sh
 
 function emailnotice {
-    sendemail -o tls=yes -f vps@itemvirtual.com -t contact@itemhost.es pau@kangura.com -s smtp.mandrillapp.com:587 -xu dominis@itemvirtual.com -xp 8Y7XgxNhRKJIVfyMJzGkFA -u "$1" -o message-file="$2" >&-
+    sendemail -o tls=yes -f vps@itemvirtual.com -t somemail@domain.com -s smtp.mandrillapp.com:587 -xu someemail@domain.com -xp password -u "$1" -o message-file="$2" >&-
 }
 
 MAILMAX=50
